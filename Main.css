@@ -1,0 +1,78 @@
+#title{
+    text-align:center;
+    font-size: 35px;
+    max-width:33%;
+    position:relative;
+    margin:auto;
+    top:75px
+}
+body{
+    background-color:#9f6da3;
+}
+#color{
+    background-color:rgb(171, 121, 175);
+    height:400px;
+    position: absolute;
+    text-align:center;
+    font-size:500%;
+    width:80%;
+    margin: 125px 200px 200px 170px;
+    border-top: solid rgb(195, 145, 199) 10px;
+    border-right: solid rgb(152, 96, 156) 10px;
+    border-left: solid rgb(195, 145, 199) 10px;
+}
+p{
+    padding:60px 0px 0px 0px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    color:rgb(195, 145, 199);
+}
+#info{
+    background-color:rgb(171, 121, 175);
+    height:400px;
+    position: absolute;
+    text-align:left;
+    font-size:300%;
+    width:80%;
+    margin: 525px 200px 200px 170px;
+    border-right: solid rgb(152, 96, 156) 10px;
+    border-left: solid rgb(195, 145, 199) 10px;
+    border-bottom: solid rgb(152, 96, 156) 10px;
+    overflow:hidden;
+    top:50px
+}
+td{
+    font-size: 40px;
+    Width:500px;
+    Height:500px;
+    Border: solid black 3px;
+    background-color:rgb(171, 121, 175);
+}
+#Games{
+     background-color:rgb(171, 121, 175);
+    position: absolute;
+    text-align:left;
+    font-size:145%;
+    width:80%;
+    height:630px;
+    margin: 0px 200px 200px 170px;
+    border-right: solid rgb(152, 96, 156) 10px;
+    border-left: solid rgb(195, 145, 199) 10px;
+    border-top: solid rgb(195, 145, 199) 10px;
+    border-bottom: solid rgb(152, 96, 156) 10px;
+    overflow:hidden; 
+}
+#navbar{
+    position:fixed;
+    margin: 0px 0% 0px 8.5%;
+    text-align:center;
+    width:80%;
+    bottom:84%;
+    font-size:500%;
+}
+
+

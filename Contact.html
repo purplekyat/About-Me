@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" type="text/css" href="Main.css"/>
+    </head>
+    <body>
+        <div id="navbar">
+            <p><a href="AboutMe.html">ABOUT ME</a> | <a href="Music.html">MY MUSIC</a> | <a href="Games.html">VIDEO GAMES</a></p>
+        </div>
+        <div id="title" style="top:70px">
+            <h1>
+                Contact Me
+            </h1>
+        </div>
+        <p></p>
+        <form action="https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure" target="_blank" method="post">
+            <!--Always use a label with an input for accessibility-->
+            <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"/><br/>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email"/> <br/>
+            </fieldset>
+            <fieldset>
+            <p>
+                Add comments below
+            </p>
+            <!--This is a comment box-->
+            <textarea rows="6" cols="50" maxlength="255"></textarea>
+            <input type="submit" name="submitform" value="Submit"/>
+            <input type="reset" name="submitform" value="Clear"/> 
+        </form>
+    </body>
+</html>
